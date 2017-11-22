@@ -2,7 +2,7 @@
 
 namespace DataValidation
 {
-    class InputValidator
+    public class InputValidator
     {
         public bool ValidName(string name)
         {
