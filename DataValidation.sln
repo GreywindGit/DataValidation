@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidation", "DataValid
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataValidationTests", "DataValidationTests\DataValidationTests.csproj", "{1A70C3B4-5961-476E-876E-B9CC90AB6903}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EncodingConverter", "EncodingConverter\EncodingConverter.csproj", "{14ED8402-8DB2-4417-90CA-0A6F0CEEA2C5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1A70C3B4-5961-476E-876E-B9CC90AB6903}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A70C3B4-5961-476E-876E-B9CC90AB6903}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A70C3B4-5961-476E-876E-B9CC90AB6903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14ED8402-8DB2-4417-90CA-0A6F0CEEA2C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14ED8402-8DB2-4417-90CA-0A6F0CEEA2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14ED8402-8DB2-4417-90CA-0A6F0CEEA2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14ED8402-8DB2-4417-90CA-0A6F0CEEA2C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
