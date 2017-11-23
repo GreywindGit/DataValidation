@@ -21,5 +21,12 @@ namespace DataValidation
             string emailPattern = @"^[A-Za-z0-9_\.]+\@\w+\.\w{2,3}$";
             return Regex.IsMatch(email, emailPattern);
         }
+
+        public string ReformatPhone(string phoneNum)
+        {
+            Match match = Regex.Match(phoneNum, @"^(\+36[-/]\d{1,2})[-/](\d{3})[-/]?(\d{3,4})$");
+            string codes = Regex.Replace(match.Groups[1].ToString(), @"[-/\+]", "");
+            return string.Format($"({codes}) {match.Groups[2]}-{match.Groups[3]}");
+        }
     }
 }

@@ -42,7 +42,11 @@ namespace DataValidation
                 }
             }
             else
+            {
+                InputValidator reformatter = new InputValidator();
+                phoneBox.Text = reformatter.ReformatPhone(phoneBox.Text);
                 MessageBox.Show("Data saved successfully.");
+            }
         }
 
         private void TextBox_TextChanged(object sender, EventArgs e)
